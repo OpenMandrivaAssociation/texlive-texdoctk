@@ -1,6 +1,6 @@
 Name:		texlive-texdoctk
 Version:	62186
-Release:	1
+Release:	2
 Summary:	Easy access to package documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texdoctk
