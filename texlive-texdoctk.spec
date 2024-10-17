@@ -3,7 +3,7 @@ Version:	62186
 Release:	2
 Summary:	Easy access to package documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texdoctk
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/texdoctk
 License:	gpl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texdoctk.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texdoctk.doc.r%{version}.tar.xz
