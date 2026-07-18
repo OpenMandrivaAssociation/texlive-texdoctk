@@ -1,5 +1,6 @@
 %global tl_name texdoctk
 %global tl_revision 62186
+%global tl_bin_links texdoctk:%{_texmfdistdir}/scripts/texdoctk/texdoctk.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildSystem:	texlive
 Requires:	texlive(kpathsea)
 Requires:	texlive(texdoctk.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 A Perl/Tk-based GUI for easy access to package documentation for TeX on
